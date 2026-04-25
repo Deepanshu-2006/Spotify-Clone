@@ -79,13 +79,7 @@ Spotify-clone/
 ---
 
 ## Screenshots
-
-Add screenshots here to make the README stronger:
-
-```text
-/screenshots/home.png
-/screenshots/player.png
-```
+<img width="1470" height="809" alt="Screenshot 2026-04-25 at 11 31 03" src="https://github.com/user-attachments/assets/a97e05aa-e353-4937-b4ba-512f0079b243" />
 
 ---
 
