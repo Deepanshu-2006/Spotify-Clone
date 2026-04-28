@@ -6,7 +6,7 @@ let audio = new Audio();
 
 // ── FETCH SONGS ──
 async function getsongs() {
-  let a = await fetch("./Songs/", { mode: "cors" });
+  let a = await fetch("songs/", { mode: "cors" });
   let response = await a.text();
 
   let div = document.createElement("div");
