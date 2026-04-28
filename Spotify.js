@@ -6,23 +6,9 @@ let audio = new Audio();
 
 // ── FETCH SONGS ──
 async function getsongs() {
-  let a = await fetch("songs/", { mode: "cors" });
-  let response = await a.text();
-
-  let div = document.createElement("div");
-  div.innerHTML = response;
-
-  let as = div.getElementsByTagName("a");
-  let songsList = [];
-
-  for (let index = 0; index < as.length; index++) {
-    const element = as[index];
-    if (element.href.endsWith(".mp3")) {
-      songsList.push(element.href);
-    }
-  }
-
-  return songsList;
+  let res = await fetch("./songs.json");
+  let data = await res.json();
+  return data;
 }
 
 // ── FORMAT TIME ──
