@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 console.log("Let's get started");
 
 let currentSongIndex = -1;
@@ -282,7 +281,6 @@ async function main() {
 }
 
 main();
-=======
 const $ = (sel) => document.querySelector(sel);
 const audio = $('#audio');
 
@@ -492,4 +490,3 @@ elVolume.addEventListener('input', (e) => {
 // Init view
 renderSongs(filtered);
 renderPlaylists();
->>>>>>> 104b4d651bfac7297e8fd0ff103ba75351309011
